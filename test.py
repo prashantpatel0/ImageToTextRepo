@@ -5,7 +5,7 @@ import io
 import json
 from selenium import webdriver
 from time import sleep
-
+#using webdriver
 driver = webdriver.Firefox()
 driver.get('http://www.knowyourcollege-gov.in/')
 sleep(1)
