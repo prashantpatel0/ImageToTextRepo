@@ -14,7 +14,7 @@ driver.get_screenshot_as_file("captcha123.png")
 driver.quit()
 #add screenshot
 
-img = cv2.imread('C:\\Users\\user\\Desktop\\knowyourcollege\\captcha.jpg')
+img = cv2.imread('C:\\Users\\user\\Desktop\\knowyourcollege\\captcha.png')
 height , width , _ = img.shape
 #print(img)
 
